@@ -2,7 +2,7 @@ from upper import uppercase
 import unittest
 
 
-class Upper(unittest.TestCase):
+class UpperTest(unittest.TestCase):
 
     def test_upper(self):
         uppercase_string = uppercase("This is coding at best")
