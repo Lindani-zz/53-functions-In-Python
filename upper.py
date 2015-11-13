@@ -1,2 +1,2 @@
 def uppercase(sentence):
-    return sentence
+    return sentence.upper()
