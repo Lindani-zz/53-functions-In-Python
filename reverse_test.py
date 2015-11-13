@@ -6,7 +6,7 @@ class ReversedWords(unittest.TestCase):
 
     def reverse_words(self):
         words = reversed_words("codex is cool")
-        self.assertEqaul(words, "hdjdhdjdldkdh")
+        self.assertEqaul(words.reverse(), "hdjdhdjdldkdh")
 
 if __name__ == '__main__':
     unittest.main()
