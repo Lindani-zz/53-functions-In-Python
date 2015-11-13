@@ -4,5 +4,5 @@ def sum_list(n):
     for numbers in range(1, n+1):
         myList.append(numbers)
     for result in myList:
-        theSum = theSum + result
+        theSum += result
     return theSum
